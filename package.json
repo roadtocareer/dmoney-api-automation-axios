@@ -1,0 +1,24 @@
+{
+  "name": "mocha-chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node .\\testrunner.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@faker-js/faker": "^9.1.0",
+    "axios": "^1.7.7",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "mocha": "^10.7.3",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0",
+    "shelljs": "^0.8.5"
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "id": 25344,
+    "name": "Axios user Howard",
+    "email": "Talon.Mayer40@yahoo.com",
+    "password": "1234",
+    "phone_number": "01502332608",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-28T16:42:24.455Z",
+    "createdAt": "2024-10-28T16:42:24.455Z"
+  },
+  {
+    "id": 25345,
+    "name": "Axios user Velda",
+    "email": "Joelle10@gmail.com",
+    "password": "1234",
+    "phone_number": "01502504251",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-28T16:42:35.713Z",
+    "createdAt": "2024-10-28T16:42:35.713Z"
+  },
+  {
+    "id": 25346,
+    "name": "Axios user Keith",
+    "email": "Vincenzo82@gmail.com",
+    "password": "1234",
+    "phone_number": "01502472321",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-28T16:57:34.349Z",
+    "createdAt": "2024-10-28T16:57:34.349Z"
+  },
+  {
+    "id": 25347,
+    "name": "Axios user Donavon",
+    "email": "Gerry.Reilly26@yahoo.com",
+    "password": "1234",
+    "phone_number": "01502385958",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-28T16:57:51.678Z",
+    "createdAt": "2024-10-28T16:57:51.678Z"
+  },
+  {
+    "id": 25348,
+    "name": "Axios user Kiley",
+    "email": "Winona.Hackett@yahoo.com",
+    "password": "1234",
+    "phone_number": "01502326549",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-28T18:41:26.900Z",
+    "createdAt": "2024-10-28T18:41:26.900Z"
+  },
+  {
+    "id": 25349,
+    "name": "Axios user Evelyn",
+    "email": "Sienna11@yahoo.com",
+    "password": "1234",
+    "phone_number": "01502779456",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-28T18:42:32.181Z",
+    "createdAt": "2024-10-28T18:42:32.181Z"
+  },
+  {
+    "id": 25350,
+    "name": "Axios user Marcelle",
+    "email": "Ted68@hotmail.com",
+    "password": "1234",
+    "phone_number": "01502282984",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-28T18:44:49.637Z",
+    "createdAt": "2024-10-28T18:44:49.637Z"
+  }
+]
