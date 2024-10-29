@@ -75,5 +75,16 @@
     "role": "Customer",
     "updatedAt": "2024-10-28T18:44:49.637Z",
     "createdAt": "2024-10-28T18:44:49.637Z"
+  },
+  {
+    "id": 25465,
+    "name": "Axios user Geo",
+    "email": "Felicia63@yahoo.com",
+    "password": "1234",
+    "phone_number": "01502297500",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-29T14:38:29.072Z",
+    "createdAt": "2024-10-29T14:38:29.072Z"
   }
 ]
