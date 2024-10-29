@@ -18,7 +18,6 @@ jobs:
     env:
       base_url: https://dmoney.roadtocareer.net
       secretKey: ROADTOSDET
-      token: ${{ secrets.TOKEN }}
 
     steps:
       - uses: actions/checkout@v3

@@ -97,5 +97,27 @@
     "role": "Customer",
     "updatedAt": "2024-10-29T14:42:11.228Z",
     "createdAt": "2024-10-29T14:42:11.228Z"
+  },
+  {
+    "id": 25468,
+    "name": "Axios user Pearline",
+    "email": "Yolanda.Hintz56@yahoo.com",
+    "password": "1234",
+    "phone_number": "01502695441",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-29T15:01:44.794Z",
+    "createdAt": "2024-10-29T15:01:44.794Z"
+  },
+  {
+    "id": 25471,
+    "name": "Axios user Eli",
+    "email": "Suzanne_Kreiger@gmail.com",
+    "password": "1234",
+    "phone_number": "01502220337",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-29T15:11:37.514Z",
+    "createdAt": "2024-10-29T15:11:37.514Z"
   }
 ]

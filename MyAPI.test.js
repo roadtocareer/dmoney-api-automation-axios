@@ -8,6 +8,7 @@ import generateRandomId from './Utils.js'
 import jsonData from './userData.json' assert { type: 'json' };
 import fs from 'fs'
 
+let token ="";
 describe("User Login", async () => {
     it("User login with valid creds", async () => {
         const {data} = await axios.post(`${process.env.base_url}/user/login`, {
@@ -24,14 +25,15 @@ describe("User Login", async () => {
         console.log(data);
 
         expect(data.message).to.contains("Login successful");
-        storeToken('token', data.token);
+        //storeToken('token', data.token);
+        token = data.token;
 
     })
     it("search user", async ()=> {
         const {data} = await axios.get(`${process.env.base_url}/user/search/id/11745`, {
             headers: {
                 'Content-Type': 'application/json',
-                "Authorization": `Bearer ${process.env.token}`
+                "Authorization": `Bearer ${token}`
             }
         });
         console.log(data);
@@ -49,7 +51,7 @@ describe("User Login", async () => {
             {
                 headers: {
                     'Content-Type': 'application/json',
-                    "Authorization": `Bearer ${process.env.token}`,
+                    "Authorization": `Bearer ${token}`,
                     "X-AUTH-SECRET-KEY":`${process.env.secretKey}`
                 }
             });
@@ -57,6 +59,12 @@ describe("User Login", async () => {
         jsonData.push(data.user);
         fs.writeFileSync('./userData.json', JSON.stringify(jsonData, null, 2)); 
     });
+
+    //delay 1000 ms
+    afterEach(async () => {
+        await new Promise(resolve => setTimeout(resolve, 1000));
+    });
+
 
 
 })
