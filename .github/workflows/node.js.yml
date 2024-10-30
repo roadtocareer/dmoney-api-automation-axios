@@ -26,7 +26,7 @@ jobs:
       - run: npm run build --if-present
       
       - name: Run Tests and Generate Report
-        run: npm test file ./tests/MyAPI.test.js
+        run: npm test file ./tests/*
       - name: Upload Test Report
         if: always()  # Upload even if tests fail
         uses: actions/upload-artifact@v3
