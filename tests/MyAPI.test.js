@@ -1,11 +1,11 @@
 import { expect } from 'chai';
 import axios from 'axios';
 import dotenv from 'dotenv';
-import storeToken from './setEnvVar.js';
+import storeToken from '../setEnvVar.js';
 dotenv.config();
 import { faker } from '@faker-js/faker';
-import generateRandomId from './Utils.js'
-import jsonData from './userData.json' assert { type: 'json' };
+import generateRandomId from '../Utils.js'
+import jsonData from '../userData.json' assert { type: 'json' };
 import fs from 'fs'
 
 let token ="";

@@ -141,5 +141,60 @@
     "role": "Customer",
     "updatedAt": "2024-10-29T15:44:27.732Z",
     "createdAt": "2024-10-29T15:44:27.732Z"
+  },
+  {
+    "id": 25478,
+    "name": "Axios user Deja",
+    "email": "Stan.Weimann@yahoo.com",
+    "password": "1234",
+    "phone_number": "01502547316",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-29T15:46:20.647Z",
+    "createdAt": "2024-10-29T15:46:20.647Z"
+  },
+  {
+    "id": 25520,
+    "name": "Axios user Eugene",
+    "email": "Antonio_Collier@hotmail.com",
+    "password": "1234",
+    "phone_number": "01502251079",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-30T14:36:52.230Z",
+    "createdAt": "2024-10-30T14:36:52.230Z"
+  },
+  {
+    "id": 25521,
+    "name": "Axios user Jakayla",
+    "email": "Maude_Bernhard41@gmail.com",
+    "password": "1234",
+    "phone_number": "01502557741",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-30T14:41:34.636Z",
+    "createdAt": "2024-10-30T14:41:34.636Z"
+  },
+  {
+    "id": 25522,
+    "name": "Axios user Alexis",
+    "email": "Kiel.Williamson@gmail.com",
+    "password": "1234",
+    "phone_number": "01502348784",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-30T14:44:32.649Z",
+    "createdAt": "2024-10-30T14:44:32.649Z"
+  },
+  {
+    "id": 25523,
+    "name": "Axios user Dayana",
+    "email": "Rafaela22@hotmail.com",
+    "password": "1234",
+    "phone_number": "01502844311",
+    "nid": "123456789",
+    "role": "Customer",
+    "updatedAt": "2024-10-30T14:45:08.161Z",
+    "createdAt": "2024-10-30T14:45:08.161Z"
   }
 ]
